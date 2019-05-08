@@ -1,0 +1,175 @@
+<!-- JSON - JavaScript -->
+<!doctype html>
+<html lang="en">
+  <head>
+          <!-- Required meta tags -->
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <!-- Daftar Font -->
+          <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          <!-- CSS Lokal -->
+          <link rel="stylesheet" href="css/style.css">
+          <!-- Plugin dan Jquery -->
+          <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+          <script src="jquery.novacancy.min.js"></script>
+
+          <title>WEB WEABOU</title>
+  </head>
+  
+  <!-- BODY SECION -->
+  <body>
+      
+      <!-- Navigasi -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+              Wee A Boo!!
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home</a> 
+                <a class="nav-item nav-link " href="#">`Bout Me</a> 
+                <a class="nav-item nav-link" href="#">Later Season</a> 
+                
+                <!-- DROPDOWN ANIME -->
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      TOP Anime
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Top Airing Anime</a>
+                      <a class="dropdown-item" href="#">Top Upcoming Anime</a>
+                      <a class="dropdown-item" href="#">Most Popular Anime</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown dd2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Schedule
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Monday</a>
+                      <a class="dropdown-item" href="#">Tuesday</a>
+                      <a class="dropdown-item" href="#">Wednesday</a>
+                      <a class="dropdown-item" href="#">Thursday</a>
+                      <a class="dropdown-item" href="#">Friday</a>
+                      <a class="dropdown-item" href="#">Saturday</a>
+                      <a class="dropdown-item" href="#">Sunday</a>
+                    </div>
+                  </li>
+                </ul>
+                
+                <!-- Form Search -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" id="search-input">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-button">Search</button>
+                </form>
+              <!-- <a class="nav-item nav-link" href="#">Top Airing Anime</a>
+              <a class="nav-item nav-link" href="#">Top Upcoming Anime</a>
+              <a class="nav-item nav-link" href="#">Most Popular</a> -->
+            </div>
+          </div>
+        </div>        
+      </nav>
+
+      <!-- ISI KONTEN -->
+      <div class="maincontainer">
+          <!-- HERO -->
+          <div class="hero"></div> 
+                          
+          <!-- NEON TEXT -->
+          <div class="neon-text">
+            <p id="neonthis">
+
+                      &nbsp;&nbsp;&nbsp;M Y<br>
+                      < /D I V > E R E N T<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;W O R L D<br>
+            </p>
+          </div>
+          <div class="container-content" id="content">
+              <!-- CONTENT -->
+              <h2>Apa itu API?</h2><br>
+              <p>
+              API adalah singkatan dari Application Programming Interface, dan memungkinkan developer untuk mengintegrasikan dua bagian dari aplikasi atau dengan aplikasi yang berbeda secara bersamaan. API terdiri dari berbagai elemen seperti function, protocols, dan tools lainnya yang memungkinkan developers untuk membuat aplikasi. Tujuan penggunaan API adalah untuk mempercepat proses development dengan menyediakan function secara terpisah sehingga developer tidak perlu membuat fitur yang serupa. Penerapan API akan sangaat terasa jika fitur yang diinginkan sudah sangat kompleks, tentu membutuhkan waktu untuk membuat yang serupa dengannya. Misalnya: integrasi dengan payment gateway. Terdapat berbagai jenis sistem API yang dapat digunakan, termasuk sistem operasi, library, dan web.
+              </p>
+
+              <p>API(Application Programming Interface) memungkinkan hal yang sama terjadi hanya saja yang berkomunikasi adalah antar aplikasi. Lalu apa kegunaan API ini? dengan menggunakan API maka kita dapat mengunakan sumber daya dari aplikasi lain tanpa perlu mengetahui bagaimana aplikasi itu dibuat.</p>
+            
+              <p>Misalkan kita membuat aplikasi web yang membutuhkan login namun kita menggunakan login data facebook. Tidak mungkin kan kita minta Mark Zuckerberg membuka database-nya? Dengan menggunakan API maka kita dapat membuat aplikasi yang membutuhkan login melalui media akun facebook tanpa perlu mengetahui isi facebook itu sendiri.</p>
+
+              <p>Ada banyak penerapan dari API itu sendiri. Misalnya untuk pembayaran PayPal, Online Banking Payment(sampai saat ini di indonesia masih jarang). API bisa dikatakan sebagai penghubung antar aplikasi agar dapat berkomunikasi dan dimengerti satu sama lain tanpa perlu saling mengenal satu sama lain.</p>
+            
+          </div>
+          
+          <!-- FOOTER -->
+            <div class="team-section" id="me">
+              <div class="inner-width">
+                  <h1>Meet Our Team, or Me Team?</h1>
+                  <div class="pers">
+                  
+                    <div class="pe">
+                      <img class="foto" src="img/p1.jpg" alt="">
+                      <div class="p-name">Arry Febryan</div>
+                      <div class="p-des">Designer</div>
+                      <div class="p-sm">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>    
+                    </div>
+
+                    <div class="pe">
+                      <img src="img/p1.jpg" alt="">
+                      <div class="p-name">Arry Febryan</div>
+                      <div class="p-des">Developer</div>
+                      <div class="p-sm">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>    
+                    </div>
+
+                    <div class="pe">
+                      <img src="img/p1.jpg" alt="">
+                      <div class="p-name">Arry Febryan</div>
+                      <div class="p-des">Project Manager</div>
+                      <div class="p-sm">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>    
+                    </div>
+                  </div>
+                </div>
+           </div>     
+
+      </div>
+       
+
+
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+      <!-- Memanggil script javascript -->
+      <script src="js/script.js"></script>
+  </body>
+</html>
